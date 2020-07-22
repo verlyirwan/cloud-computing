@@ -1,6 +1,34 @@
 # Instalasi Git
 
 [ [<< Kembali](README.md) ]
+Bagian ini merupakan seri tulisan tentang [Git](https://git-scm.com/). Silahkan ke [README.md](README.md) untuk memahami gambaran garis besar materi-materi yang dituliskan.
+
+Git tersedia untuk berbagai sistem operasi. *Precompiled binaries* bisa diperoleh di [halaman dowbload Git](https://git-scm.com/downloads) untuk 3 sistem operasi utama: Linux, Mac OS X, dan Windows. Git bisa menggunakan antarmuka grafis (GUI) maupun CLI (*command line interface*). Pada materi ini, kita akan banyak menggunakan antarmuka CLI melalui shell (Linux / Mac OS X) atau *command prompt* / PowerShell di Windows. Setelah instalasi, periksa keberhasilan instalasi dengan menggunakan:
+
+```
+$ git --version
+git version 2.19.2
+```
+
+Jika muncul versi (tergantung versi yang terinstall), maka kita bisa mulai menggunakan Git.
+
+## Linux
+
+Git untuk Linux biasanya sudah ada pada masing-masing distro dan bisa diinstall dengan *package manager* dari distro yang bersangkutan. Sebagai contoh:
+
+1. OpenSuSE: zypper in git
+2. Arch Linux: pacman -S git
+3. Debian/Ubuntu: apt-get install git
+
+Silahkan melihat pada manual dari *package manager* di distro yang bersangkutan. 
+
+## Mac OS X
+
+Git untuk Mac OS X juga sudah tersedia dan bisa diinstall menggunakan [Homebrew](http://brew.sh) (*package manager* di Mac OS X):
+
+```
+brew install git
+```
 
 
 ## Windows
